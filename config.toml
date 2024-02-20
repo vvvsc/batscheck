@@ -1,13 +1,13 @@
 baseURL = "/"
-title = "Spectral"
-languageCode = "en-us"
+title = "Batscheck Bryanzaeff"
+languageCode = "es-es"
 defaultContentLanguage = "en"
 paginate = "7"
 theme = "spectral"
 #googleAnalytics = "G-XXXXXXXXXX"
 
 [params]
-fancyTitle = "Batscheck Bryanzaeff" # title for frontpage, may include image
+fancyTitle = "<img src='https://bafybeih2aouwlgweq6wzbk7lgtkfsqgkhwr6ss2kpadajibcikdmaw2apq.ipfs.nftstorage.link/logo.svg' width='100' height='100'/> <br /> Batscheck Bryanzaeff" # title for frontpage, may include image
 copyright = "Batscheck Bryanzaeff"
 description = 'Experiencia, dedicación y compromiso.'
 startbuttonText = "Empezar"
@@ -15,7 +15,7 @@ startbuttonLink = "#"
 body_is_markdown = true
 #custom_css = "foo.css"
 #custom_sass = "bar.scss"
-#images = ["path_to_social_image_for_link_previews.jpg"]
+images = ["/static/img/"]
 
 [module]
   [module.hugoVersion]
@@ -45,17 +45,17 @@ Desde sus inicios nuestro Estudio se ha destacado como un referente de conocimie
 '''
 
 [[params.one.icon]]
-icon = "fa-gem"
+icon = "solid fa-money-check"
 style = "1"
 label = "Lorem"
 
 [[params.one.icon]]
-icon = "fa-heart"
+icon = "solid fa-landmark"
 style = "2"
 label = "Ipsum"
 
 [[params.one.icon]]
-icon = "solid fa-code"
+icon = "solid fa-people-group"
 style = "3"
 label = "Dolor"
 
@@ -94,21 +94,21 @@ Generadora de un enriquecedor intercambio, la presencia en el ámbito académico
 '''
 
 [[params.three.feature]]
-icon = "fa-paper-plane"
+icon = "solid fa-wallet"
 title = "Recupero de Créditos"
 body = '''
 El que puede darse por la vía extrajudicial o judicial. La primera de ellas, que incluye servicio de cobranza con móviles y comunicación radial incluida que permite el contacto permanente entre los diferentes estamentos de nuestra organización. En lo que a reclamo judicial se refiere, contamos con una vasta experiencia en litigios de ésta naturaleza.-
 '''
 
 [[params.three.feature]]
-icon = "solid fa-laptop"
+icon = "solid fa-book-open"
 title = "DERECHO CIVIL"
 body = '''
 El Estudio cuenta con profesionales en condiciones de producir todo tipo de intervenciones y acuerdos vinculadas a sociedades, sucesiones, obligaciones en general, personas y derechos reales.
 '''
 
 [[params.three.feature]]
-icon = "solid fa-code"
+icon = "solid fa-cookie-bite"
 title = "DEFENSA DEL CONSUMIDOR"
 body = '''
 Consientes que las relaciones contractuales pueden estar influenciadas por cláusulas abusivas que violan las garantías de defensa al consumidor, el Estudio ha desarrollado éste perfil de atención, con miras a proteger al consumidor.
@@ -116,7 +116,7 @@ Consientes que las relaciones contractuales pueden estar influenciadas por cláu
 
 
 [[params.three.feature]]
-icon = "fa-heart"
+icon = "solid fa-shield-halved"
 title = "DERECHO ASEGURADOR"
 body ='''
 
@@ -124,13 +124,13 @@ Nuestra vasta experiencia en seguros y especialización en el tema, nos llevó a
 '''
 
 [[params.three.feature]]
-icon = "fa-flag"
+icon = "solid fa-car-burst"
 title = "REASEGUROS"
 body = "Con un importante conocimiento técnico, jurídico y académico, nos encontramos en condiciones de asumir, todo lo que tiene que ver con el seguimiento y asesoramiento, preventivo permanente, de toda cuestión vinculada a las condiciones contractuales reaseguradoras y por sobre todo, asistencia y representación en discusiones arbitrales y en procesos donde se sustancian relaciones jurídicas litigiosas."
 
 [[params.three.feature]]
-icon = "fa-flag"
-title = "CAUCION"
+icon = "solid fa-file-signature"
+title = "CAUCIÓN"
 body = "El conflictivo universo de ideas que genera ésta herramienta obliga a estar a la vanguardia de todo cuanto implica el análisis y asesoramiento de ésta rama de la ciencia del derecho asegurador. Nuestro Estudio se encuentra en sobrad as condiciones de generar respuestas serias, rápidas y ajustadas a las necesidades."
 
 [[params.three.feature]]
@@ -184,7 +184,7 @@ dribble = ""
 # language specific options
 
 [languages.en]
-weight = 0
+weight = 10
 languageName = "English"
 
 [languages.de]
@@ -192,5 +192,5 @@ weight = 10
 languageName = "Deutsch"
 
 [languages.es]
-weight = 10
+weight = 0
 languageName = "Español"
