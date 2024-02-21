@@ -1,20 +1,10 @@
-+++
-author = "Hugo Authors"
-title = "Obras y Artículos Publicados"
-date = "2013-03-11"
-description = ""
-tags = [
-    "",
-    "",
-    "",
-]
-categories = [
-    "",
-    "",
-]
-series = ["Themes Guide"]
-aliases = ["posts"]
-+++
+---
+author: Hugo Authors
+title: Obras.
+date: 2023-03-08
+description: Publicaciones.
+math: true
+---
 
 - Código Civil de la Republica de Paraguay comentado – Tomo VI B – Capítulo XXIV – De los Contrato de Seguros.-
 
